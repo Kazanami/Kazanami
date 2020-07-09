@@ -1,5 +1,5 @@
 <div class="profile_image" align="center">
-  <img class="profile" src="https://github.com/Kazanami.png?size=">
+  <img class="profile" src="https://github.com/Kazanami.png?size=128">
   <p> Kazanami </p>
 </div>
 
