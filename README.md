@@ -1,8 +1,10 @@
-### Hi there 👋
-<center>
-  <img clss="profile" src="https://github.com/Kazanami.png?size=256" style="">
+<div class="profile_image" align="center">
+  <img class="profile" src="https://github.com/Kazanami.png?size=256">
   <p> Kazanami </p>
-</center>
+</div>
+
+### Hi there 👋
+
 <!--
 **Kazanami/Kazanami** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
