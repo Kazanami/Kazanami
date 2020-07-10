@@ -31,7 +31,8 @@ jobs:
       env:
         GITH_EMAIL: ${{ secrets.DUMMY_ADDRESS }}
         GITH_USER: "Kazanami"
-        DEBUG_MODE: 1
+        DEBUG_MODE: 0
+        TZ: 'Asia/Tokyo'
       run: |
         cd Profile_auto_generator
         bash ./update.sh
