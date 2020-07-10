@@ -43,7 +43,7 @@ function main(){
     eval "echo \"$(eval cat ${README_TEMPLATE}/list/body.md)\"" >> ${TMP_FILE}
   done
   cat ./Footer.md >> $TMP_FILE
-  mv ${TMP_FILE} ./README.md
+  mv ${TMP_FILE} ${README_TEMPLATE}/README.md
   git diff --exit-code --quiet -- ${README_TEMPLATE}/README.md ${README_DEPLOY}/README.md
   if [ $? == 0 ];then
     echo "No Update"
@@ -52,7 +52,7 @@ function main(){
   else
     echo "Update README.md";
     mv ${README_TEMPLATE}/README.md ${README_DEPLOY}/README.md
-    git add ../README.md;
+    git add ${README_DEPLOY}/README.md;
     git commit -m "Auto Update README.md"
     git push
     git reset
