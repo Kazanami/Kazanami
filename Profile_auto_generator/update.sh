@@ -44,14 +44,14 @@ function main(){
   done
   cat ./Footer.md >> $TMP_FILE
   mv ${TMP_FILE} ./README.md
-  git diff --exit-code --quiet -- ./README.md ../README.md
+  git diff --exit-code --quiet -- ${README_TEMPLATE}/README.md ${README_DEPLOY}/README.md
   if [ $? == 0 ];then
     echo "No Update"
     git reset
     return 0
   else
     echo "Update README.md";
-    mv ./README.md ../README.md
+    mv ${README_TEMPLATE}/README.md ${README_DEPLOY}/README.md
     git add ../README.md;
     git commit -m "Auto Update README.md"
     git push
