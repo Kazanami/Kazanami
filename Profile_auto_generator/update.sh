@@ -30,20 +30,13 @@ function manifest_check(){
   BEFORE=`echo ${COMMIT_HASH} | cut -d " " -f 1` >> /dev/null
   AFTER=`echo ${COMMIT_HASH} |  cut -d " " -f 2` >> /dev/null
   
-  git diff $BEFORE $AFTER --relative=bucket --exit-code --name-only
+  git diff $BEFORE $AFTER --exit-code --name-only -- ${README_DEPLOY}/README.md ${README_TEMPLATE}/README.md
   #git diff HEAD --relative=bucket --exit-code --name-only
   echo $?
 }
 
 
 function main(){
-   MAN_CHECK=$(manifest_check)
- if [ $MAN_CHECK == 0 ];then
-    echo "No Update"
-    return 0;
- else 
-    echo "Update README.md"
- fi
   echo "Setupping ..."
   (cd git_getter;yarn install;node main.js)
 
@@ -62,11 +55,18 @@ function main(){
   done
   cat ./Footer.md >> $TMP_FILE
   mv ${TMP_FILE} ${README_TEMPLATE}/README.md
-  mv ${README_TEMPLATE}/README.md ${README_DEPLOY}/README.md
-  git add ${README_DEPLOY}/README.md;
-  git commit -m "Auto Update README.md"
-  git push
-  git reset
+  MAN_CHECK=$(manifest_check)
+  if [ $MAN_CHECK == 0 ];then
+     echo "No Update"
+     return 0;
+  else 
+     echo "Update README.md"
+     mv ${README_TEMPLATE}/README.md ${README_DEPLOY}/README.md
+     git add ${README_DEPLOY}/README.md;
+     git commit -m "${COMMIT_MESSAGE}"
+     git push
+     git reset
+  fi
 }
 
 main
