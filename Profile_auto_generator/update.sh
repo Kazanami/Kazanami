@@ -30,7 +30,7 @@ function manifest_check(){
   BEFORE=`echo ${COMMIT_HASH} | cut -d " " -f 1` >> /dev/null
   AFTER=`echo ${COMMIT_HASH} |  cut -d " " -f 2` >> /dev/null
 
-  git diff $BEFORE $AFTER --exit-code --name-only --relative=Porfile_autogenerator 
+  git diff $BEFORE $AFTER --exit-code --name-only --relative=Porfile_auto_generator 
   #git diff HEAD --relative=bucket --exit-code --name-only
   echo $?
 }
