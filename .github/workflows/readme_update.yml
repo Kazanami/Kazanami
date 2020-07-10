@@ -31,5 +31,4 @@ jobs:
         GITH_USER: "Kazanami"
         DEBUG_MODE: 1
       run: |
-        cd Profile_auto_generator
-        bash ./update.sh
+        bash ./Profile_auto_generator/update.sh
