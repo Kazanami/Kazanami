@@ -44,7 +44,7 @@ function main(){
   done
   cat ./Footer.md >> $TMP_FILE
   mv ${TMP_FILE} ${README_TEMPLATE}/README.md
-  git diff --exit-code --quiet -- ${README_TEMPLATE}/README.md ${README_DEPLOY}/README.md
+  git diff --exit-code --quiet -- README.md ./Profile_auto_generator/README.md
   if [ $? == 0 ];then
     echo "No Update"
     git reset
