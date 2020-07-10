@@ -28,7 +28,7 @@ jobs:
       env:
         GITH_EMAIL: ${{ secrets.DUMMY_ADDRESS }}
         GITH_USER: "Kazanami"
-        DEBUG_MODE: 0
+        DEBUG_MODE: 1
       run: |
         cd Profile_auto_generator
         bash ./update.sh
