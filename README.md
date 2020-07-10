@@ -7,7 +7,7 @@
 ### Hi there 👋
 
 ## Repo List
-| Repo Name | Update Time |
+| Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
 |[avatar-getter-node](https://github.com/Kazanami/avatar-getter-node.git)|2020-07-10 15:05|
 |[zeus-bucket](https://github.com/Kazanami/zeus-bucket.git)|2020-07-08 16:36|
