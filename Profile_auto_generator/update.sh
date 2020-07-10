@@ -70,7 +70,6 @@ function main(){
     git commit -m "${COMMIT_MESSAGE}"
     git push
     git reset
-   fi
   fi
     
 }
