@@ -24,24 +24,24 @@ README_TEMPLATE="${PWD}"
 README_DEPLOY=$(dirname ${PWD})
 REMOTE_API="https://api.github.com/users/${GITH_USER}/repos?sort=updated&per_page=5&page=1"
 
-function manifest_check(){
+#function manifest_check(){
   # git log --pretty=format:%h -2
-  COMMIT_HASH=`git log --pretty=format:%h -2`
-  BEFORE=`echo ${COMMIT_HASH} | cut -d " " -f 1` >> /dev/null
-  AFTER=`echo ${COMMIT_HASH} |  cut -d " " -f 2` >> /dev/null
+#  COMMIT_HASH=`git log --pretty=format:%h -2`
+#  BEFORE=`echo ${COMMIT_HASH} | cut -d " " -f 1` >> /dev/null
+#  AFTER=`echo ${COMMIT_HASH} |  cut -d " " -f 2` >> /dev/null
 
-  git diff $BEFORE $AFTER --exit-code --name-only --relative=Profile_auto_generator 
+#  git diff $BEFORE $AFTER --exit-code --name-only --relative=Profile_auto_generator 
   #git diff HEAD --relative=bucket --exit-code --name-only
-  echo $?
-}
+#  echo $?
+#}
 
 
 function main(){
-  MAN_CHECK=$(manifest_check)
-  if [ $MAN_CHECK == 0 ];then
-     echo "No Update"
-     return 0;
-  fi
+#  MAN_CHECK=$(manifest_check)
+#  if [ $MAN_CHECK == 0 ];then
+#     echo "No Update"
+#     return 0;
+#  fi
   echo "Setupping ..."
   (cd git_getter;yarn install;node main.js)
 
@@ -59,13 +59,20 @@ function main(){
     eval "echo \"$(eval cat ${README_TEMPLATE}/list/body.md)\"" >> ${TMP_FILE}
   done
   cat ./Footer.md >> $TMP_FILE
-
-  echo "Update README.md"
-  mv ${TMP_FILE} ${README_DEPLOY}/README.md
-  git add ${README_DEPLOY}/README.md;
-  git commit -m "${COMMIT_MESSAGE}"
-  git push
-  git reset
+  diff -s ./README.md ../README.md > /dev/null 2>&1
+  if [ $? -eq 0 ];then
+    echo "No update"
+    return 0
+   elif [ $? -eq 1 ];then
+    echo "Update README.md"
+    mv ${TMP_FILE} ${README_DEPLOY}/README.md
+    git add ${README_DEPLOY}/README.md;
+    git commit -m "${COMMIT_MESSAGE}"
+    git push
+    git reset
+   fi
+  fi
+    
 }
 
 main
