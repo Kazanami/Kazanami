@@ -32,4 +32,4 @@ jobs:
         DEBUG_MODE: 1
       run: |
         cd Profile_auto_generator
-        ./update.sh
+        bash ./update.sh
