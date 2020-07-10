@@ -1,2 +1,2 @@
-| Repo Name | Update Time |
+| Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
