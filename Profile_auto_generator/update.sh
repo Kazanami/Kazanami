@@ -30,7 +30,7 @@ REMOTE_API="https://api.github.com/users/${GITH_USER}/repos?sort=updated&per_pag
 #  BEFORE=`echo ${COMMIT_HASH} | cut -d " " -f 1` >> /dev/null
 #  AFTER=`echo ${COMMIT_HASH} |  cut -d " " -f 2` >> /dev/null
 
-#  git diff $BEFORE $AFTER --exit-code --name-only --relative=Profile_auto_generator 
+#  git diff $BEFORE $AFTER --exit-code --name-only --relative=Profile_auto_generator
   #git diff HEAD --relative=bucket --exit-code --name-only
 #  echo $?
 #}
@@ -53,7 +53,7 @@ function main(){
   cat ./Header.md >> $TMP_FILE
   cat ./list/repo_list_header.md >> $TMP_FILE
   for (( count=0; count<${MAX_COUNTER}; count++));do
-     Repo_name=$(echo $REPO_DATA | jq .[$count].name -r)
+     Repo_name="Kazanami/$(echo $REPO_DATA | jq .[$count].name -r)"
      Repo_url=$(echo $REPO_DATA | jq .[$count].clone_url -r)
      update_time=`date -d $(echo $REPO_DATA | jq .[$count].updated_at -r) '+%F %R'`
     eval "echo \"$(eval cat ${README_TEMPLATE}/list/body.md)\"" >> ${TMP_FILE}
@@ -71,7 +71,7 @@ function main(){
     git push
     git reset
   fi
-    
+
 }
 
 main
