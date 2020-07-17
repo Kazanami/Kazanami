@@ -9,11 +9,6 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
-|[Kazanami/my-scoop-template](https://github.com/Kazanami/my-scoop-template.git)|2020-07-16 08:51|
-|[Kazanami/scoop](https://github.com/Kazanami/scoop.git)|2020-07-14 12:50|
-|[Kazanami/avatar-getter-node](https://github.com/Kazanami/avatar-getter-node.git)|2020-07-10 15:05|
-|[Kazanami/zeus-bucket](https://github.com/Kazanami/zeus-bucket.git)|2020-07-08 16:36|
-|[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2020-07-01 09:14|
 <!--
 **Kazanami/Kazanami** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
