@@ -9,7 +9,7 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
-|[Kazanami/zeus-bucket](https://github.com/Kazanami/zeus-bucket.git)|2020-07-27 08:54|
+|[Kazanami/zeus-bucket](https://github.com/Kazanami/zeus-bucket.git)|2020-07-27 15:14|
 |[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2020-07-23 09:15|
 |[Kazanami/Persona-4-Golden-Guide](https://github.com/Kazanami/Persona-4-Golden-Guide.git)|2020-07-21 12:13|
 |[Kazanami/my-scoop-template](https://github.com/Kazanami/my-scoop-template.git)|2020-07-16 08:51|
