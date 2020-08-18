@@ -9,11 +9,11 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
+|[Kazanami/nodebrew-go](https://github.com/Kazanami/nodebrew-go.git)|2020-08-18 12:25|
 |[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2020-08-12 09:17|
 |[Kazanami/zeus-bucket](https://github.com/Kazanami/zeus-bucket.git)|2020-07-27 15:14|
 |[Kazanami/Persona-4-Golden-Guide](https://github.com/Kazanami/Persona-4-Golden-Guide.git)|2020-07-21 12:13|
 |[Kazanami/my-scoop-template](https://github.com/Kazanami/my-scoop-template.git)|2020-07-16 08:51|
-|[Kazanami/scoop](https://github.com/Kazanami/scoop.git)|2020-07-14 12:50|
 <!--
 **Kazanami/Kazanami** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
