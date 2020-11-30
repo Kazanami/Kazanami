@@ -13,11 +13,6 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
-|[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2020-11-25 09:19|
-|[Kazanami/zeus-bucket](https://github.com/Kazanami/zeus-bucket.git)|2020-10-22 22:05|
-|[Kazanami/yarn-initer](https://github.com/Kazanami/yarn-initer.git)|2020-09-02 13:41|
-|[Kazanami/my-docker-template](https://github.com/Kazanami/my-docker-template.git)|2020-09-02 13:41|
-|[Kazanami/nodebrew-go](https://github.com/Kazanami/nodebrew-go.git)|2020-08-18 12:25|
 <!--
 **Kazanami/Kazanami** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
