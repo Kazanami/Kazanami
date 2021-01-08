@@ -13,7 +13,7 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
-|[Kazanami/zeus-bucket](https://github.com/Kazanami/zeus-bucket.git)|2021-01-08 13:01|
+|[Kazanami/zeus-bucket](https://github.com/Kazanami/zeus-bucket.git)|2021-01-08 20:50|
 |[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2021-01-05 09:37|
 |[Kazanami/yarn-initer](https://github.com/Kazanami/yarn-initer.git)|2020-09-02 13:41|
 |[Kazanami/my-docker-template](https://github.com/Kazanami/my-docker-template.git)|2020-09-02 13:41|
