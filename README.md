@@ -13,9 +13,9 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
+|[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2021-05-20 09:34|
 |[Kazanami/dotfiles](https://github.com/Kazanami/dotfiles.git)|2021-05-17 11:19|
 |[Kazanami/dotfiles-old2](https://github.com/Kazanami/dotfiles-old2.git)|2021-05-17 11:17|
-|[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2021-05-12 09:28|
 |[Kazanami/zeus-bucket](https://github.com/Kazanami/zeus-bucket.git)|2021-05-06 08:26|
 |[Kazanami/yarn-initer](https://github.com/Kazanami/yarn-initer.git)|2020-09-02 13:41|
 <!--
