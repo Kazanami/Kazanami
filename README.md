@@ -13,11 +13,11 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
+|[Kazanami/BD-Server-Themes](https://github.com/Kazanami/BD-Server-Themes.git)|2021-06-11 23:39|
 |[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2021-06-04 10:20|
 |[Kazanami/dotfiles](https://github.com/Kazanami/dotfiles.git)|2021-05-17 11:19|
 |[Kazanami/dotfiles-old2](https://github.com/Kazanami/dotfiles-old2.git)|2021-05-17 11:17|
 |[Kazanami/zeus-bucket](https://github.com/Kazanami/zeus-bucket.git)|2021-05-06 08:26|
-|[Kazanami/yarn-initer](https://github.com/Kazanami/yarn-initer.git)|2020-09-02 13:41|
 <!--
 **Kazanami/Kazanami** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
