@@ -13,8 +13,8 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
+|[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2021-06-16 09:31|
 |[Kazanami/BD-Server-Themes](https://github.com/Kazanami/BD-Server-Themes.git)|2021-06-11 23:39|
-|[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2021-06-04 10:20|
 |[Kazanami/dotfiles](https://github.com/Kazanami/dotfiles.git)|2021-05-17 11:19|
 |[Kazanami/dotfiles-old2](https://github.com/Kazanami/dotfiles-old2.git)|2021-05-17 11:17|
 |[Kazanami/zeus-bucket](https://github.com/Kazanami/zeus-bucket.git)|2021-05-06 08:26|
