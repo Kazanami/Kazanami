@@ -13,7 +13,7 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
-|[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2021-11-10 09:34|
+|[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2021-12-01 09:37|
 |[Kazanami/scoop](https://github.com/Kazanami/scoop.git)|2021-10-26 03:25|
 |[Kazanami/zeus-bucket](https://github.com/Kazanami/zeus-bucket.git)|2021-09-05 02:17|
 |[Kazanami/BetterDiscordApp](https://github.com/Kazanami/BetterDiscordApp.git)|2021-07-09 12:50|
