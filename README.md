@@ -13,7 +13,7 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
-|[Kazanami/dotfiles](https://github.com/Kazanami/dotfiles.git)|2021-12-11 22:20|
+|[Kazanami/dotfiles](https://github.com/Kazanami/dotfiles.git)|2021-12-13 21:55|
 |[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2021-12-02 09:35|
 |[Kazanami/scoop](https://github.com/Kazanami/scoop.git)|2021-10-26 03:25|
 |[Kazanami/zeus-bucket](https://github.com/Kazanami/zeus-bucket.git)|2021-09-05 02:17|
