@@ -13,11 +13,11 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
-|[Kazanami/dotfiles](https://github.com/Kazanami/dotfiles.git)|2021-12-20 08:39|
+|[Kazanami/dotfiles](https://github.com/Kazanami/dotfiles.git)|2021-12-20 10:06|
+|[Kazanami/dotfiles-manager](https://github.com/Kazanami/dotfiles-manager.git)|2021-12-20 10:04|
 |[Kazanami/mycheat-list](https://github.com/Kazanami/mycheat-list.git)|2021-12-18 15:42|
 |[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2021-12-18 09:39|
 |[Kazanami/scoop](https://github.com/Kazanami/scoop.git)|2021-10-26 03:25|
-|[Kazanami/zeus-bucket](https://github.com/Kazanami/zeus-bucket.git)|2021-09-05 02:17|
 <!--
 **Kazanami/Kazanami** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
