@@ -13,7 +13,7 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
-|[Kazanami/dotfiles](https://github.com/Kazanami/dotfiles.git)|2021-12-20 10:06|
+|[Kazanami/dotfiles](https://github.com/Kazanami/dotfiles.git)|2021-12-20 10:40|
 |[Kazanami/dotfiles-manager](https://github.com/Kazanami/dotfiles-manager.git)|2021-12-20 10:04|
 |[Kazanami/mycheat-list](https://github.com/Kazanami/mycheat-list.git)|2021-12-18 15:42|
 |[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2021-12-18 09:39|
