@@ -13,9 +13,9 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
-|[Kazanami/develop-container](https://github.com/Kazanami/develop-container.git)|2022-01-04 11:03|
+|[Kazanami/develop-container](https://github.com/Kazanami/develop-container.git)|2022-01-04 11:26|
+|[Kazanami/dotfiles](https://github.com/Kazanami/dotfiles.git)|2022-01-04 11:24|
 |[Kazanami/dotfiles-module](https://github.com/Kazanami/dotfiles-module.git)|2022-01-04 10:28|
-|[Kazanami/dotfiles](https://github.com/Kazanami/dotfiles.git)|2021-12-29 17:30|
 |[Kazanami/mycheat-list](https://github.com/Kazanami/mycheat-list.git)|2021-12-21 13:43|
 |[Kazanami/dotfiles-manager](https://github.com/Kazanami/dotfiles-manager.git)|2021-12-20 11:51|
 <!--
