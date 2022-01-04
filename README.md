@@ -13,11 +13,11 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
+|[Kazanami/develop-container](https://github.com/Kazanami/develop-container.git)|2022-01-04 11:03|
+|[Kazanami/dotfiles-module](https://github.com/Kazanami/dotfiles-module.git)|2022-01-04 10:28|
 |[Kazanami/dotfiles](https://github.com/Kazanami/dotfiles.git)|2021-12-29 17:30|
 |[Kazanami/mycheat-list](https://github.com/Kazanami/mycheat-list.git)|2021-12-21 13:43|
 |[Kazanami/dotfiles-manager](https://github.com/Kazanami/dotfiles-manager.git)|2021-12-20 11:51|
-|[Kazanami/node-version-getter](https://github.com/Kazanami/node-version-getter.git)|2021-12-18 09:39|
-|[Kazanami/scoop](https://github.com/Kazanami/scoop.git)|2021-10-26 03:25|
 <!--
 **Kazanami/Kazanami** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
