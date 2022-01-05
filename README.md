@@ -13,8 +13,8 @@
 ## Repo List
 | Repo Name | Update Time (TZ = Asia/Tokyo) |
 |:---------:|:-----------:|
-|[Kazanami/dotfiles](https://github.com/Kazanami/dotfiles.git)|2022-01-05 14:23|
-|[Kazanami/trash-wrapper](https://github.com/Kazanami/trash-wrapper.git)|2022-01-05 10:38|
+|[Kazanami/trash-wrapper](https://github.com/Kazanami/trash-wrapper.git)|2022-01-05 15:14|
+|[Kazanami/dotfiles](https://github.com/Kazanami/dotfiles.git)|2022-01-05 14:45|
 |[Kazanami/develop-container](https://github.com/Kazanami/develop-container.git)|2022-01-04 11:26|
 |[Kazanami/dotfiles-module](https://github.com/Kazanami/dotfiles-module.git)|2022-01-04 10:28|
 |[Kazanami/mycheat-list](https://github.com/Kazanami/mycheat-list.git)|2021-12-21 13:43|
